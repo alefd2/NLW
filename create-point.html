@@ -51,16 +51,20 @@
                     </div> <!--field-group end-->
 
                     <div class="field-group">
+
                         <div class="field">    
                             <label for="state">Estado</label>
                             <select name="uf">
                                 <option value="">Selecione o Estado</option>
                             </select>
+                            <input type="hidden" name="state">
                         </div>
 
                         <div class="field">
                             <label for="city">Cidade</label>
-                            <select name="City" disabled>Selecioone a Cidade</select>
+                            <select name="city" disabled>
+                                <option value="">Selecionar município</option>
+                            </select>
                         </div>                           
                        
                     </div> <!--field-group end-->
@@ -81,6 +85,6 @@
 
 
     </div><!--End page-home-->
-
+    <script src="scripts/create-point.js"></script>
 </body>
 </html>
